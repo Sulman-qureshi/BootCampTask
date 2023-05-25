@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    border:0;
+  }
+  #map-container-section{
+    height: 400px;
+  }
+  .blue.accent-1{
+    background-color: #82b1ff !important;
+  }
+  .form-header {
+    padding: 1rem;
+    margin-top: -3.13rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.125rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.card-body h3 {
+    font-weight: 400;
+}
+.btn{
+    padding: 0.84rem 2.14rem;
+    font-size: .81rem;
+    cursor: pointer;
+}
+.btn-light-blue {
+    color: #fff;
+    background-color: #82b1ff !important;
+}
+.blue.accent-1 {
+    background-color: #82b1ff !important;
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+}
+
+  footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  

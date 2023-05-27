@@ -9,9 +9,28 @@ const TeacherTable = () => {
   ];
 
   return (
-    <>
-    <h1>{console.log('dsdsdsds')}</h1>
-    </>
+    <table className="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone No</th>
+          <th>Subject</th>
+        </tr>
+      </thead>
+      <tbody>
+        {teachers.map((teacher) => (
+          <tr key={teacher.id}>
+            <td>{teacher.id}</td>
+            <td>{teacher.name}</td>
+            <td>{teacher.email}</td>
+            <td>{teacher.phone}</td>
+            <td>{teacher.subject}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   );
 };
 

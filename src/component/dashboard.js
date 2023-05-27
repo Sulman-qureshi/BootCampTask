@@ -5,47 +5,55 @@ const Dashboard = () => {
 
 
   return (
-    <div className="dashboard-container">
-      <div className="sidebar">
-        <h2>Dashboard</h2>
-        <ul>
-          <li>
-            <a to="#">Home</a>
-          </li>
-          <li className="dropdown">
-            <a to="#" className="dropdown-toggle" role="button" id="teacherDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-              Teachers
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="teacherDropdown">
-              <Link className="dropdown-item" to="/teacher-list">Teacher List</Link>
-              <Link className="dropdown-item" to="#">Add Teacher/</Link>
-            </ul>
-          </li>
-          <li className="dropdown">
-            <a to="#" className="dropdown-toggle" role="button" id="studentDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-              Students
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="studentDropdown">
-              <li><a className="dropdown-item" to="#">Students List</a></li>
-              <li><a className="dropdown-item" to="#">Add Student</a></li>
-            </ul>
-          </li>
-          <li className="dropdown">
-            <a to="#" className="dropdown-toggle" role="button" id="courseDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-              Courses
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="courseDropdown">
-              <li><a className="dropdown-item" to="#">Courses List</a></li>
-              <li><a className="dropdown-item" to="#">Add Courses</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div className="content">
-        <h2>Welcome to the Dashboard</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
+    <>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Teacher
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Teacher</a></li>
+            <li><Link class="dropdown-item" to={"/table"}>Teachers List</Link></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Student
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Student</a></li>
+            <li><a class="dropdown-item" href="#">Students List</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Course</a></li>
+            <li><a class="dropdown-item" href="#">Courses List</a></li>
+            
+          </ul>
+        </li>
+        
+      </ul>
+      {/* <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> */}
     </div>
+  </div>
+</nav>
+</>
   );
 };
 

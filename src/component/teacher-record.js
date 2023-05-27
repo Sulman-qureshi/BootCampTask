@@ -20,13 +20,13 @@ const TeacherTable = () => {
         </tr>
       </thead>
       <tbody>
-        {teachers.map((teacher) => (
-          <tr key={teacher.id}>
-            <td>{teacher.id}</td>
-            <td>{teacher.name}</td>
-            <td>{teacher.email}</td>
-            <td>{teacher.phone}</td>
-            <td>{teacher.subject}</td>
+        {teachers.map((teachers) => (
+          <tr key={teachers.id}>
+            <td>{teachers.id}</td>
+            <td>{teachers.name}</td>
+            <td>{teachers.email}</td>
+            <td>{teachers.phone}</td>
+            <td>{teachers.subject}</td>
           </tr>
         ))}
       </tbody>

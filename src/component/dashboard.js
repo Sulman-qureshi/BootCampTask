@@ -15,12 +15,12 @@ const Dashboard = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Teacher
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Add Teacher</a></li>
-            <li><Link class="dropdown-item" to={"/table"}>Teachers List</Link></li>
+            <li><Link class="dropdown-item" to={"/add-teacher"}>Add Teacher</Link></li>
+            <li><Link class="dropdown-item" to={"/teachers-list"}>Teachers List</Link></li>
             
           </ul>
         </li>
@@ -29,8 +29,8 @@ const Dashboard = () => {
             Student
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Add Student</a></li>
-            <li><a class="dropdown-item" href="#">Students List</a></li>
+            <li><Link class="dropdown-item" to={"/add-student"}>Add Student</Link></li>
+            <li><Link class="dropdown-item" to={"/students-list"}>Students List</Link></li>
             
           </ul>
         </li>
@@ -39,8 +39,8 @@ const Dashboard = () => {
             Courses
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Add Course</a></li>
-            <li><a class="dropdown-item" href="#">Courses List</a></li>
+            <li><Link class="dropdown-item" to={"/add-course"}>Add Course</Link></li>
+            <li><Link class="dropdown-item" to={"/courses-list"}>Courses List</Link></li>
             
           </ul>
         </li>

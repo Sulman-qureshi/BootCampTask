@@ -28,9 +28,7 @@ body {
   #map-container-section{
     height: 400px;
   }
-  .blue.accent-1{
-    background-color: #82b1ff !important;
-  }
+  
   .form-header {
     padding: 1rem;
     margin-top: -3.13rem;
@@ -53,7 +51,7 @@ body {
     color: #fff;
     background-color: #82b1ff !important;
 }
-.blue.accent-1 {
+.blue.accent-2 {
     background-color: #82b1ff !important;
 }
 .btn-floating i {
@@ -62,6 +60,7 @@ body {
     color: #fff;
     text-align: center;
 }
+
 
   footer {
     background-color: #343a40;

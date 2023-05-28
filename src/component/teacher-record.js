@@ -1,12 +1,22 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const TeacherTable = () => {
-  const teachers = [
-    { id: 1, name: 'John Doe', email: 'johndoe@example.com', phone: '1234567890', subject: 'Mathematics' },
-    { id: 2, name: 'Jane Smith', email: 'janesmith@example.com', phone: '9876543210', subject: 'Science' },
-    // Add more teacher records here
-  ];
+  const [teachers, setTeachers] = useState([]);
+
+  useEffect(() => {
+    const fetchTeachers = async () => {
+      try {
+        const response = await axios.get('http://localhost:5001/teacher/');
+        console.log('response', response);
+        setTeachers(response.data.data);
+      } catch (error) {
+        console.error('Error fetching teacher data:', error);
+      }
+    };
+
+    fetchTeachers();
+  }, []);
 
   return (
     <table className="table">
@@ -20,13 +30,13 @@ const TeacherTable = () => {
         </tr>
       </thead>
       <tbody>
-        {teachers.map((teachers) => (
-          <tr key={teachers.id}>
-            <td>{teachers.id}</td>
-            <td>{teachers.name}</td>
-            <td>{teachers.email}</td>
-            <td>{teachers.phone}</td>
-            <td>{teachers.subject}</td>
+        {teachers.map((teacher) => (
+          <tr key={teacher.id}>
+            <td>{teacher.id}</td>
+            <td>{teacher.name}</td>
+            <td>{teacher.email}</td>
+            <td>{teacher.phone}</td>
+            <td>{teacher.subject}</td>
           </tr>
         ))}
       </tbody>

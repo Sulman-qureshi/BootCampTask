@@ -3,7 +3,7 @@ function MethodCard() {
   return (
     <div>
       <div className="card " >
-        <div className="row g-0" style={{fontFamily: 'Montserrat, Arial, sans-serif', backgroundColor:'lightgray'}}>
+        <div className="row g-0" style={{fontFamily: 'Montserrat, Arial, sans-serif', backgroundColor:'#f0f5f5'}}>
           <div className="col-md-6" >
             <img src={photo} className="img-fluid rounded-start" alt="photo"  />
           </div>

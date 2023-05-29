@@ -7,6 +7,7 @@ import MethodCard from "./components/MethodCard";
 import Application from "./components/Application";
 import Teachers from "./components/Teachers";
 import Review from "./components/Reviews";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
           <Review />
         </section>
       </main>
+      <Footer/>
     </div>
   );
 }

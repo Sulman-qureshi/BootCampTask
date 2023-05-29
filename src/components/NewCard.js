@@ -42,19 +42,19 @@ function NewCards() {
               <div className="row align-items-start">
                 <Card
                   url="https://geeks-nextjs.vercel.app/images/course/course-python.jpg"
-                  title="Python Programming for Beginners"
+                  title="Python Course for Beginners"
                 />
                 <Card
-                  url={htmlLogo}
-                  title="Java Fundamentals: The Core Concepts"
+                  url={javaLogo}
+                  title="Java Fundamentals"
                 />
                 <Card
                   url="https://geeks-nextjs.vercel.app/images/course/course-javascript.jpg"
                   title="JavaScript: From Basics to Advanced"
                 />
                 <Card
-                  url={javaLogo}
-                  title="HTML &amp; CSS Mastery"
+                  url="https://wallpapercave.com/wp/wp7420966.jpg"
+                  title="HTML &amp; CSS, JS Mastery"
                 />
               </div>
             </div>

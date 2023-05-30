@@ -18,6 +18,15 @@ import CourseListPage from './route/CourseListPage';
 import AddTeacherForm from './component/add-teacher';
 import AddStudentForm from './component/add-student';
 import AddCourseForm from './component/add-course';
+import ContactUs from './component/contact-Us';
+
+// import AboutUs from './component/about-Us';
+// import Blog from './component/blog';
+// import Courses from './component/courses';
+
+
+
+
 
 
 const App = () => {
@@ -60,7 +69,12 @@ const App = () => {
     
     <Routes>
       {/* <Route exact path="/" element={<Dashboard />} /> */}
+      {/* <Route exact path="/" element={<Home />} /> */}
+      {/* <Route exact path="/about-us" element={<AboutUs />} />
+      <Route exact path="/courses" element={<Courses />} />
+      <Route exact path="/blog" element={<Blog />} />       */}
       <Route exact path="/contact-us" element={<ContactUs />} />
+      
       <Route exact path="/teachers-list" element={<TeacherListPage />} />
       <Route exact path="/students-list" element={<StudentListPage />} />
       <Route exact path="/courses-list" element={<CourseListPage />} />

@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Dashboard from './component/dashboard';
 import { BrowserRouter } from 'react-router-dom';
+// import Navbar from './components/Navbar';
+
 
 
 
@@ -13,8 +15,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <BrowserRouter>
+  <Dashboard />
   <React.StrictMode>
-    <Dashboard />
     <App />
   </React.StrictMode>
   </BrowserRouter>

@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import Navbar from "./components/Navbar";
 import ImageCard from "./components/ImageCard";
 import ThreeCards from "./components/ThreeCards";
@@ -9,7 +9,9 @@ import Teachers from "./components/Teachers";
 import Review from "./components/Reviews";
 import Footer from "./components/Footer";
 import React from 'react';
-import ContactUs from './component/contact-Us';
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+
 
 
 
@@ -35,6 +37,18 @@ const App = () => {
             <h2>Our Reviews</h2>
             <div className="underline"></div>
           </div>
+          <div className='container '>
+          <div className='row'>
+          <div className="col-6">
+<Login/>
+           </div>
+              <br />
+          <div className="col-6">
+          <Signup/>
+              </div>
+             </div>
+             </div>
+             <br />
           <Review />
         </section>
       </main>

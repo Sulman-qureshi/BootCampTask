@@ -19,6 +19,18 @@ import AddTeacherForm from './component/add-teacher';
 import AddStudentForm from './component/add-student';
 import AddCourseForm from './component/add-course';
 import ContactUs from './component/contact-Us';
+<<<<<<< HEAD
+=======
+
+// import AboutUs from './component/about-Us';
+// import Blog from './component/blog';
+// import Courses from './component/courses';
+
+
+
+
+
+>>>>>>> 89a57133fe4fb3d0fc8e4e9cdbdc5885ea3d054b
 
 const App = () => {
   return (
@@ -60,7 +72,12 @@ const App = () => {
     
     <Routes>
       {/* <Route exact path="/" element={<Dashboard />} /> */}
+      {/* <Route exact path="/" element={<Home />} /> */}
+      {/* <Route exact path="/about-us" element={<AboutUs />} />
+      <Route exact path="/courses" element={<Courses />} />
+      <Route exact path="/blog" element={<Blog />} />       */}
       <Route exact path="/contact-us" element={<ContactUs />} />
+      
       <Route exact path="/teachers-list" element={<TeacherListPage />} />
       <Route exact path="/students-list" element={<StudentListPage />} />
       <Route exact path="/courses-list" element={<CourseListPage />} />

@@ -7,7 +7,7 @@ import { FaEnvelope, FaMapMarkerAlt, FaUserAlt, FaTag, FaPencilAlt, FaPhoneAlt }
 const ContactUs = () => {
   return (
     <>
-      <header>
+      {/* <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
             <a className="navbar-brand" href="#">LMS</a>
@@ -36,7 +36,7 @@ const ContactUs = () => {
         </nav>
       </header>
 
-    
+     */}
     <section className="container mt-5 dark-grey-text mb-5">
         <h3 className="font-weight-bold text-center mb-4">Contact Us</h3>
             <p className="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.

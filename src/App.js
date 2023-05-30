@@ -18,7 +18,7 @@ import CourseListPage from './route/CourseListPage';
 import AddTeacherForm from './component/add-teacher';
 import AddStudentForm from './component/add-student';
 import AddCourseForm from './component/add-course';
-
+import ContactUs from './component/contact-Us';
 
 const App = () => {
   return (

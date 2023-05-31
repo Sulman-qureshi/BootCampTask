@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-color:  dimgray;
+
+}
+.about01{
+  margin: 30px;
+  padding: 5px;
+}
+.about01 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.about01 p{
+    text-align: center;
+    padding: 3px;
+    color: #0d0000;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px, 30px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+}
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: nome;
+}
+.about-item p{
+    margin-top: 20px;
+
+}
+.about-item :hover{
+    background-color: blueviolet;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateY(-20);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #81c644;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}

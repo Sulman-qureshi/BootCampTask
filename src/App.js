@@ -23,11 +23,7 @@ import ContactUs from './component/contact-Us';
 // import AboutUs from './component/about-Us';
 // import Blog from './component/blog';
 // import Courses from './component/courses';
-
-
-
-
-
+import AboutUs from './AboutUs';
 
 const App = () => {
   return (

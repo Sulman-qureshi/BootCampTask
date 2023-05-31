@@ -3,7 +3,7 @@ import React from 'react';
 
 const StudentTable = () => {
   const student = [
-    { id: 1, name: 'Salman', fname: 'Ghafoor', email: 'salman@gmail.com', phone: '1234567890', address: 'Lahore' },
+    { id: 1, name: 'Salman', fname: 'Ghafoor', email: 'salmanqureshi5151@gmail.com', phone: '1234567890', address: 'Lahore' },
     { id: 1, name: 'Junaid', fname: 'Junaid', email: 'junaid@gmail.com', phone: '1234567890', address: 'Lahore' },
     { id: 1, name: 'Khalid', fname: 'khalid', email: 'khalid@gmail.com', phone: '1234567890', address: 'Lahore' },
     { id: 1, name: 'Shakeel', fname: 'Shakeel', email: 'shakeel@gmail.com', phone: '1234567890', address: 'Lahore' },

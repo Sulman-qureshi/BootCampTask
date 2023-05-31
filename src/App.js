@@ -19,8 +19,6 @@ import AddTeacherForm from './component/add-teacher';
 import AddStudentForm from './component/add-student';
 import AddCourseForm from './component/add-course';
 import ContactUs from './component/contact-Us';
-<<<<<<< HEAD
-=======
 
 // import AboutUs from './component/about-Us';
 // import Blog from './component/blog';
@@ -30,7 +28,6 @@ import ContactUs from './component/contact-Us';
 
 
 
->>>>>>> 89a57133fe4fb3d0fc8e4e9cdbdc5885ea3d054b
 
 const App = () => {
   return (

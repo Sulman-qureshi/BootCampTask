@@ -22,21 +22,21 @@ const TeacherTable = () => {
     <table className="table">
       <thead>
         <tr>
-          <th>ID</th>
+          {/* <th>ID</th> */}
           <th>Name</th>
           <th>Email</th>
           <th>Phone No</th>
-          <th>Subject</th>
+          <th>Course</th>
         </tr>
       </thead>
       <tbody>
         {teachers.map((teacher) => (
           <tr key={teacher.id}>
-            <td>{teacher.id}</td>
+            {/* <td>{teacher.id}</td> */}
             <td>{teacher.name}</td>
             <td>{teacher.email}</td>
             <td>{teacher.phone}</td>
-            <td>{teacher.subject}</td>
+            <td>{teacher.course}</td>
           </tr>
         ))}
       </tbody>

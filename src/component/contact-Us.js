@@ -48,33 +48,37 @@ const ContactUs = () => {
                 <div className="card">
                     <div className="card-body">
           
-                        <div className="form-header blue accent-2">
+                        <div className="form-header blue accent-2 ">
                             <h3 className="mt-2"><FaEnvelope className="fas fa-envelope"/> Write to us:</h3>
                         </div>      
                     <p className="dark-grey-text">We'll write rarely, but only the best content.</p>
           
-                    <div className="md-form">
+                    <div className="md-form ">
                         <FaUserAlt className="fas fa-user prefix grey-text"/>
+                        <label className="headingsFields" for="form-name">Your name</label>
                         <input type="text" id="form-name" className="form-control"/>
-                        <label for="form-name">Your name</label>
+                        
                     </div>
                     <div className="md-form">
                         <FaEnvelope className="fas fa-envelope prefix grey-text"/>
+                        <label className="headingsFields" for="form-email">Your email</label>
                         <input type="text" id="form-email" className="form-control"/>
-                        <label for="form-email">Your email</label>
+                        
                     </div>
                     <div className="md-form">
                         <FaTag className="fas fa-tag prefix grey-text"/>
+                        <label className="headingsFields" for="form-Subject">Subject</label>
                         <input type="text" id="form-Subject" className="form-control"/>
-                        <label for="form-Subject">Subject</label>
+                        
                     </div>
                     <div className="md-form">
-                        <FaPencilAlt className="fas fa-pencil-alt prefix grey-text"/>
+                        <FaPencilAlt className="fas fa-pencil-alt prefix grey-text" />
+                        <label className="headingsFields" for="form-text">Send message</label>
                         <textarea id="form-text" className="form-control md-textarea" rows="3"></textarea>
-                        <label for="form-text">Send message</label>
+                        
                     </div>
                     <div className="text-center">
-                        <button className="btn btn-light-blue waves-effect waves-light">Submit</button>
+                        <button className="btn btn-light-blue waves-effect waves-light sbmt">Submit</button>
                     </div>
                 </div>
             </div>

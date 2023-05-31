@@ -60,23 +60,11 @@ body {
     color: #fff;
     text-align: center;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 
-  footer {
-    background-color: #343a40;
-    color: #fff;
-  }
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 0;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   background-color: #f8f9fa;
   margin: 0;
@@ -86,8 +74,18 @@ body {
 .dashboard-container {
   display: flex;
   height: 100vh;
+} */
+.sbmt{
+  color: white!important;
+  margin-top: 15px;
 }
-
+.headingsFields{
+  padding-left: 3px;
+  color: dimgray;
+}
+p {
+  color: dimgray!important;
+}
 .sidebar {
   width: 250px;
   background-color: #343a40;
@@ -163,7 +161,7 @@ body {
   margin-bottom: 20px;
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -284,7 +282,10 @@ label {
         width: '100vw';
         height:'100vh';
 }
-
-
+/* footer css */
+.page-footer{
+  background-color: #0d47a1!important;
+  font-family: poppins;
+}
 
   

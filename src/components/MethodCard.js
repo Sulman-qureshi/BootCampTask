@@ -10,7 +10,7 @@ function MethodCard() {
           <div className="col-md-6">
             <div className="card-body" style={{textAlign:'left', paddingLeft:'7%', paddingTop:'5%'}}>
                 <div style={{marginBottom:'5%'}}>
-                    <h1 className="card-title" >How it Works?</h1>
+                    <h1 className="card-title"style={{textAlign:'center'}} >How it Works?</h1>
                 </div>
               
               <div>

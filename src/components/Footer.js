@@ -76,7 +76,7 @@ function Footer() {
 
       <div className="footer-copyright text-center py-3">
         © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> Learning Management System</a>
+        <a href="#"> Learning Management System</a>
       </div>
     </footer>
   );

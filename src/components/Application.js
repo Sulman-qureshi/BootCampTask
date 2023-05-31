@@ -19,7 +19,7 @@ function Application() {
       <img src={laptopPhoto} alt="Laptop" style={imageStyle} />
       <div style={textStyle}>
       <h1 >Applications are <strong>Now Open</strong> </h1>
-      <p style={{fontSize:'20px'}}>
+      <p style={{fontSize:'20px', color:'white'}}>
       We’re now taking enrolments for Semester 1 — 2017. Smart education graduates are 40% more likely to find ongoing work in their chosen profession.
       </p>
       <button className="btn btn-primary" >Get Started</button>

@@ -1,40 +1,20 @@
+import {Routes, Route} from 'react-router';
 import "./App.css";
-import Navbar from "./components/Navbar";
-import ImageCard from "./components/ImageCard";
-import ThreeCards from "./components/ThreeCards";
-import NewCards from "./components/NewCard";
-import MethodCard from "./components/MethodCard";
-import Application from "./components/Application";
-import Teachers from "./components/Teachers";
-import Review from "./components/Reviews";
-import Footer from "./components/Footer";
+import Home from './components/Home';
+import Login from './components/Login';
+import Signup from './components/Signup'
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <ImageCard />
-      <br />
-      <ThreeCards />
-      <br />
-      <NewCards />
-      <br />
-      <MethodCard />
-      
-      <Application />
-      <br />
-      <Teachers />
-      <main>
-        <section className="container">
-          <div children="title">
-            <h2>Our Reviews</h2>
-            <div className="underline"></div>
-          </div>
-          <Review />
-        </section>
-      </main>
-      <Footer/>
+    <div className='App'>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route exact path="/home"  element={<Home/>}/>
+      <Route exact path="/login" element={<Login/>}/>
+      <Route exact path="/signup" element={<Signup/>}/>
+    </Routes>
     </div>
-  );
+  )
 }
 
 export default App;

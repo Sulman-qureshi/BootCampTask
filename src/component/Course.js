@@ -3,8 +3,6 @@ import React from 'react'
 export default function Course() {
   return (
     <div className="home-01">
-      
-  {/* section1 start  */}
   
   <div className=" my-5">
     <div className="col-lg-12 text-center">

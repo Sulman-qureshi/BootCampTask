@@ -17,14 +17,14 @@ export default function Login() {
   };
 
   return (
-    <div >
+    <div>
       <Formik
         initialValues={initialValue}
         onSubmit={handleForm}
         validationSchema={UserSchema}
       >
         <Form textalign="center">
-        <h1 className="text-center"  style={{ color: 'black' }} >Login</h1>
+        <h1 className="text-center mt-5"  style={{ color: 'black' }} >Login</h1>
           <div className="container flex textalign:center mb-6">
             <label for="exampleInputEmail1" className="form-label">
               Email address
@@ -40,7 +40,7 @@ export default function Login() {
             <ErrorMessage name="password" />
           </div>
           <div className="d-flex mt-3 justify-content-center">
-          <button type=" submit" className=" btn btn-primary">
+          <button type=" submit" className="sub-btn btn btn-primary">
             Login
           </button>
           </div>

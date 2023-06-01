@@ -24,7 +24,7 @@ export default function Signup() {
         validationSchema={UserSchema}
       >
         <Form textalign="center">
-        <h1 className="text-center"  style={{ color: 'black' }} >Sign-up</h1>
+        <h1 className="text-center mt-5"  style={{ color: 'black' }} >Sign-up</h1>
           <div class="container flex textalign:center mb-6">
             <label for="exampleInputEmail1" class="form-label">
               Name
@@ -47,7 +47,7 @@ export default function Signup() {
             <ErrorMessage name="password" />
           </div>
           <div className="d-flex mt-3 justify-content-center">
-          <button type=" submit" class="textalign:center btn btn-primary">
+          <button type=" submit" class="sub-btn btn btn-primary">
             Signup
           </button>
           </div>

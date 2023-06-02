@@ -157,29 +157,28 @@ exports.NewPassword = (req, res) => {
     .catch((err) => {
       console.log(err);
     });
+  }
 
 
+exports.getTeacher = async (req, res)=>{
+      try {
+          const TeacherData = await Teacher.find({});
+          res.status(200).send({message:"Received data successfully", data:TeacherData})
+      } catch (error) {
+        console.log("Error: ", error.message)
+          res.status(500).send({message:error})
+      }
+};
 
-// exports.getTeacher = async (req, res)=>{
-//       try {
-//           const TeacherData = await Teacher.find({});
-//           res.status(200).send({message:"Get all data successfully", data:TeacherData})
-//       } catch (error) {
-//           res.status(500).send({error})
-//       }
-  
-//   };
 
-
- exports.CreateTeacher =   async(req, res)=>{
+ exports.CreateTeacher =   async (req, res)=>{
       try {
           const payload = req.body;
           const teacher = new Teacher(payload);
           const TeacherData = await teacher.save();
-          res.status(201).send({message:"Data Create successfully", data:TeacherData})
+          res.status(201).send({message:"User Create successfully", data:TeacherData})
       } catch (error) {
           res.status(500).send({message:error})
       }
   
-  };
-};
+}
